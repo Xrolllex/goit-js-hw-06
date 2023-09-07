@@ -1,4 +1,3 @@
-
 const galleryElement = document.querySelector('.gallery');
 
 const images = [
