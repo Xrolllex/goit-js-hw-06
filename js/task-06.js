@@ -4,7 +4,7 @@ const textInput = document.getElementById("validation-input");
     const inputValue = textInput.value.trim();
     const acceptLength = parseInt(textInput.getAttribute("data-length"), 10);
 
-    if (inputValue.length >= acceptLength) {
+    if (inputValue.length === acceptLength) {
       textInput.classList.remove("invalid");
       textInput.classList.add("valid");
     } else {
